@@ -75,7 +75,7 @@ function construirModalDetails(detalhe){
     modalHeader.innerHTML = `
         <h3>${detalhe.name}</h3>
 
-        <div class="modalHeader">
+        <div class="modalHeader"> 
             <ul>
                 <li><strong>${backgroundModal}</strong></li>
                 <li><strong>${detalhe.types[1].type.name}</strong></li>
